@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="Scripts/jquery-3.1.1.js"></script>
+
+    <script src="js/bootstrap.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-responsive.min.css" rel="stylesheet"/>
+    <style>
+        .my-backcolor {
+            background-color: lightseagreen;
+        }
+        .my-backcolor-dark {
+            background-color: darkseagreen;   
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="span8 my-backcolor">Span 8</div>
+            <div class="span4 my-backcolor">Span 4</div>
+        </div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="span2 my-backcolor">Span 2</div>
+        <div class="span6 offset2 my-backcolor">Span 6</div>
+    </div>
+    <hr />
+    <div class="row">
+        <div class="span8 my-backcolor">
+            Level 1 Column
+            <div class="row">
+                <div class="span2 my-backcolor-dark">Level 2 Column</div>
+                <div class="span6 my-backcolor-dark">Level 2 Column</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
